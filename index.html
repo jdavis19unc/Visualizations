@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="style.css">
-
+    <header>
+        <h1>List Iteration</h1>
+    </header>
+    <header>
+        <form id = "insert">
+            <label for="lname">Insert Value</label><br>
+            <input type="text" id="insertval" value="11"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+        <form id = "fillList">
+            <label for="tar">Fill List To Value</label><br>
+            <input type="text" id="fillform" value="10"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+        <form id = "findtar">
+            <label for="tar">Find Target</label><br>
+            <input type="text" id="findtarget" value="5"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+        <form id = "settarfps">
+            <label for="tarfps">Speed (animation frames per second)</label><br>
+            <input type="text" id="fpsform" value="25"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </header>
+    <canvas id = "box"></canvas>
+    <link rel="stylesheet" href="style.css">
 <body>
-
-<p>
-<button onclick="moveBlock()">Click Me</button> 
-</p>
-
-<div id ="myContainer">
-<div id ="mySquare"></div>
-</div>
-<script src="script.js">
-</script>
+    <script src="script.js">
+    </script>
 </body>
 </html>

@@ -1,20 +1,38 @@
-#myContainer {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  background-color: grey;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(55, 139, 114);
+}
+#insert {
+  float: left;
   width: 400px;
-  height: 400px;
-  position: relative;
-  background: yellow;
+}
+#findtar {
+  float: left;
+  width: 500px;
+}
+#settarfps {
+  float: right;
+  width: 1800px;
 }
 
-#myAnimation {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  background: red;
-}
-
-#mySquare {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  background-color: #555;
+#fillList {
+  width: 1800px;
+  float: right;
 }
